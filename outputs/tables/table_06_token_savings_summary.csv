@@ -1,0 +1,8 @@
+,value
+samples,100.0
+llm_calls_executed,31.0
+llm_calls_prevented,69.0
+baseline_tokens,26111.0
+gated_tokens,4928.0
+estimated_savings,21183.0
+estimated_savings_percent,81.13

@@ -1,0 +1,5 @@
+| action      |   False |   True |
+|:------------|--------:|-------:|
+| ALLOW       |       0 |     14 |
+| ALLOW_LIGHT |       0 |     17 |
+| CLARIFY     |      69 |      0 |

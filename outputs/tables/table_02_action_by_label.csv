@@ -1,0 +1,11 @@
+label,ALLOW,ALLOW_LIGHT,CLARIFY
+adversarial,0,0,10
+ambiguity,0,3,7
+conceptual,4,3,3
+contradiction,0,2,8
+factual,4,2,4
+incomplete,0,1,9
+low_context,0,0,10
+narrative,4,3,3
+nonsense,0,0,10
+overlap,2,3,5
