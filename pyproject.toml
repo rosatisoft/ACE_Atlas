@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ace-atlas"
+version = "1.0.1"
+description = "Semantic Dispersion Gates for Reliable Language Model Runtime Control"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Ernesto Rosati" }
+]
+keywords = [
+  "semantic-runtime",
+  "llm",
+  "semantic-dispersion",
+  "embeddings",
+  "runtime-gating",
+  "context-matrix"
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "scikit-learn",
+  "pytest"
+]
+
+[project.urls]
+Homepage = "https://github.com/rosatisoft/ACE_Atlas"
+Repository = "https://github.com/rosatisoft/ACE_Atlas"
+DOI = "https://doi.org/10.5281/zenodo.20101298"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atlas*"]
